@@ -1,0 +1,6 @@
+{
+  "name": "Tawhid — Video Editor & Graphic Designer",
+  "description": "Portfolio of Tawhid, a Video Editor and Graphic Designer creating cinematic videos, graphic designs, social media content, thumbnails, and visual experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
