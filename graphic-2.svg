@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="g2-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1715"/>
+      <stop offset="50%" stop-color="#14241E"/>
+      <stop offset="100%" stop-color="#080F0D"/>
+    </linearGradient>
+    <linearGradient id="g2-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="g2-emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="g2-bottle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#064E3B" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#059669" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#10B981" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#047857" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="750" fill="url(#g2-bg)"/>
+
+  <!-- Minimalist Aesthetic Editorial Framing -->
+  <rect x="30" y="30" width="540" height="690" fill="none" stroke="rgba(245, 158, 11, 0.25)" stroke-width="1"/>
+
+  <text x="60" y="70" fill="url(#g2-gold)" font-family="'Syne', serif" font-weight="600" font-size="13" letter-spacing="4">ORGANIC APOTHECARY</text>
+  <text x="540" y="70" fill="#94A3B8" font-family="sans-serif" font-weight="600" font-size="11" text-anchor="end" letter-spacing="2">EST. 2024</text>
+
+  <!-- Botanical Plant Silhouette Overlay in Background -->
+  <path d="M 420 180 Q 480 240 450 340 Q 520 280 490 400" fill="none" stroke="rgba(16, 185, 129, 0.15)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 120 400 Q 80 480 150 560 Q 90 520 130 620" fill="none" stroke="rgba(245, 158, 11, 0.15)" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Center Luxury Bottle Mockup -->
+  <!-- Bottle Cap -->
+  <rect x="270" y="140" width="60" height="35" rx="3" fill="url(#g2-gold)"/>
+  <rect x="280" y="175" width="40" height="20" fill="#047857"/>
+  <!-- Bottle Neck -->
+  <path d="M 280 195 L 280 230 C 280 270, 210 280, 210 320 L 210 520 C 210 540, 225 550, 250 550 L 350 550 C 375 550, 390 540, 390 520 L 390 320 C 390 280, 320 270, 320 195 Z" fill="url(#g2-bottle)"/>
+  
+  <!-- Bottle Label Surface -->
+  <rect x="225" y="320" width="150" height="180" rx="4" fill="#FBFBF9" stroke="url(#g2-gold)" stroke-width="1.5"/>
+  
+  <!-- Label Details -->
+  <circle cx="300" cy="355" r="16" fill="none" stroke="#B45309" stroke-width="1.5"/>
+  <path d="M 296 350 L 300 345 L 304 350 L 300 365 Z" fill="url(#g2-gold)"/>
+  <text x="300" y="388" fill="#1C1917" font-family="'Syne', serif" font-weight="800" font-size="14" text-anchor="middle" letter-spacing="3">AURA</text>
+  <text x="300" y="402" fill="#78716C" font-family="sans-serif" font-weight="700" font-size="7" text-anchor="middle" letter-spacing="2">BOTANICAL ELIXIR</text>
+  <line x1="250" y1="412" x2="350" y2="412" stroke="#D6D3D1" stroke-width="0.8"/>
+  <text x="300" y="426" fill="#059669" font-family="sans-serif" font-weight="600" font-size="8" text-anchor="middle" letter-spacing="1">COLD-PRESSED RAW</text>
+  <text x="300" y="440" fill="#78716C" font-family="sans-serif" font-size="7" text-anchor="middle">Wild Forest Herbs &amp; Citrus</text>
+  <text x="300" y="465" fill="#1C1917" font-family="serif" font-style="italic" font-size="8" text-anchor="middle">500ml / 16.9 fl oz</text>
+  <rect x="270" y="478" width="60" height="12" fill="#064E3B" rx="2"/>
+  <text x="300" y="487" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="6" text-anchor="middle" letter-spacing="1">NO. 08 BLEND</text>
+
+  <!-- Editorial Brand Typography below bottle -->
+  <text x="300" y="605" fill="#FFFFFF" font-family="'Syne', serif" font-weight="800" font-size="34" text-anchor="middle" letter-spacing="5">AURA BOTANICA</text>
+  <text x="300" y="632" fill="url(#g2-gold)" font-family="sans-serif" font-weight="600" font-size="13" text-anchor="middle" letter-spacing="4">LUXURY PACKAGING &amp; IDENTITY DESIGN</text>
+  
+  <text x="300" y="662" fill="#94A3B8" font-family="sans-serif" font-weight="400" font-size="11" text-anchor="middle">Complete Branding Suite • Sustainable Label System • Retail Box Mockups</text>
+
+  <rect x="220" y="682" width="160" height="28" rx="14" fill="rgba(245,158,11,0.1)" stroke="url(#g2-gold)" stroke-width="1"/>
+  <text x="300" y="700" fill="#FCD34D" font-family="sans-serif" font-weight="700" font-size="10" text-anchor="middle" letter-spacing="1">CASE STUDY AVAILABLE</text>
+</svg>

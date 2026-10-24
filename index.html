@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alex Rivera — Creative Specialist in Graphic Design, Video Editing & Motion Graphics, and Digital Marketing. Delivering high-converting visuals and scalable growth." />
+  <meta name="keywords" content="Graphic Design, Video Editing, Motion Graphics, Digital Marketing, Social Media Ads, Branding, Reels Editor" />
+  <meta name="author" content="Alex Rivera" />
+  <title>Alex Rivera | Graphic Design • Video Editing • Digital Marketing Portfolio</title>
+
+  <!-- Favicon / Brand SVG Icon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238B5CF6'/%3E%3Ctext x='16' y='22' fill='%23FFFFFF' font-size='16' font-family='sans-serif' font-weight='900' text-anchor='middle'%3EAR%3C/text%3E%3C/svg%3E" />
+
+  <!-- Core Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- Ambient Animated Gradient Glows in Background -->
+  <div class="ambient-glow" aria-hidden="true">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+  </div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Alex Rivera Portfolio Home">
+        <span class="brand-mark">AR</span>
+        <span class="brand-text">ALEX<span>.</span>RIVERA</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action items: Theme switcher + Hire Me CTA -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle Theme" title="Switch Theme">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-sm hire-me-trigger">
+          Hire Me
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="home">
+      <!-- Interactive Particle Canvas in Hero Background -->
+      <canvas id="particlesCanvas"></canvas>
+
+      <div class="container hero-grid">
+        <!-- Hero Text & Headline -->
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-dot"></span>
+            <span>Available for Freelance &amp; Remote Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Crafting <span class="text-gradient">Visual Impact</span> &amp; <span class="text-gradient-cyan">Scalable Growth</span>
+          </h1>
+
+          <p class="hero-description">
+            I am a multi-disciplinary creative specialist uniting <strong>Graphic Design</strong>, <strong>Video Editing &amp; Motion</strong>, and <strong>Digital Marketing</strong> to transform brand ideas into viral attention and measurable revenue.
+          </p>
+
+          <!-- Core Skill Badges Chips -->
+          <div class="hero-skills-row">
+            <div class="hero-skill-chip">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Graphic Design &amp; Branding</span>
+            </div>
+            <div class="hero-skill-chip">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <span>Video &amp; Motion Graphics</span>
+            </div>
+            <div class="hero-skill-chip">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline></svg>
+              <span>Paid Social &amp; Digital Growth</span>
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="hero-cta-group">
+            <a href="#portfolio" class="btn btn-primary btn-lg">
+              View Work
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary btn-lg hire-me-trigger">
+              Hire Me
+            </a>
+            <a href="#services" class="btn btn-outline btn-lg">
+              Explore Services
+            </a>
+          </div>
+
+          <!-- Verified Track Record Stats -->
+          <div class="hero-stats-grid">
+            <div class="stat-item">
+              <span class="stat-number">120+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">15M+</span>
+              <span class="stat-label">Video Views</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">4.8x</span>
+              <span class="stat-label">Average Ad ROAS</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">99%</span>
+              <span class="stat-label">Client Satisfaction</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="hero-visual-wrapper">
+          <div class="hero-image-frame">
+            <div class="hero-avatar-inner">
+              <img src="assets/images/hero-avatar.svg" alt="Alex Rivera Creative Professional Avatar" />
+            </div>
+          </div>
+
+          <!-- Floating Badges -->
+          <div class="floating-badge badge-top-left">
+            <div class="badge-icon purple">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+            </div>
+            <div>
+              <p class="badge-text-title">Creative Master</p>
+              <p class="badge-text-desc">Adobe Suite &amp; Motion 3D</p>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-bottom-right">
+            <div class="badge-icon emerald">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+            </div>
+            <div>
+              <p class="badge-text-title">Growth Driven</p>
+              <p class="badge-text-desc">Meta &amp; Google Ads Certified</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT ME SECTION
+         ========================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Where <span class="text-gradient">Aesthetic Vision</span> Meets Strategy</h2>
+          <p class="section-subtitle">A balanced fusion of artistic execution, storytelling cadence, and data-backed performance marketing.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left: Narrative & Strategy Philosophy -->
+          <div class="about-story-card">
+            <h3 class="about-lead-quote">"Most designers don't understand conversion metrics. Most marketers don't understand visual rhythm. I bridge both worlds."</h3>
+            
+            <p class="about-narrative">
+              With 4+ years of hands-on experience across creative agencies and direct-to-consumer brand teams, I approach every project with a dual-lens: crafting stunning visual aesthetics that build deep brand equity, paired with algorithmic psychology that hooks viewers and drives transactions.
+            </p>
+            <p class="about-narrative">
+              Whether directing a complete corporate rebrand, editing high-velocity TikTok/Reels advertisements with custom kinetic captions, or optimizing full-funnel paid advertising campaigns, my objective is always clear: delivering maximum client ROI.
+            </p>
+
+            <div class="about-pillars-list">
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                </div>
+                <div>
+                  <h4 class="pillar-title">3-Second Hook Mastery</h4>
+                  <p class="pillar-desc">Engineering visual tension and audio hooks that prevent user scrolling and maximize watch time retention.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                </div>
+                <div>
+                  <h4 class="pillar-title">Cohesive Brand Architectures</h4>
+                  <p class="pillar-desc">Delivering vector assets, style guidelines, and color theory optimized for both physical print and digital interfaces.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                </div>
+                <div>
+                  <h4 class="pillar-title">Performance &amp; Admin Discipline</h4>
+                  <p class="pillar-desc">Advanced MS Office &amp; administrative workflow proficiency ensuring seamless reporting, client communication, and timely deliverables.</p>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 2rem;">
+              <a href="#contact" class="btn btn-primary hire-me-trigger">
+                Let's Build Something Great Together →
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Skill Badges & Progress Meters -->
+          <div class="skills-column" id="skillsColumn">
+            <!-- Dynamically populated by main.js from PORTFOLIO_DATA.skills -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SERVICES SECTION
+         ========================================================================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag cyan">What I Offer</span>
+          <h2 class="section-title">Specialized <span class="text-gradient-cyan">Creative Solutions</span></h2>
+          <p class="section-subtitle">Tailored creative services designed to elevate brand authority, captivate audiences, and scale conversions.</p>
+        </div>
+
+        <div class="services-grid" id="servicesGrid">
+          <!-- Dynamically populated from PORTFOLIO_DATA.services -->
+        </div>
+
+        <!-- Achievements & Certifications Row -->
+        <div class="achievements-grid" id="achievementsGrid">
+          <!-- Dynamically populated from PORTFOLIO_DATA.achievements -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PORTFOLIO / WORK GALLERY (CRUCIAL FEATURE)
+         ========================================================================== -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Proven Work &amp; <span class="text-gradient">Case Studies</span></h2>
+          <p class="section-subtitle">Explore selected projects across Graphic Design, Motion Graphics, and Digital Marketing campaigns. Click any item for high-res preview, playable video, or full case study details.</p>
+        </div>
+
+        <!-- Filterable Tabs -->
+        <div class="portfolio-filter-wrapper">
+          <div class="portfolio-filter-nav" role="tablist" aria-label="Portfolio Filters">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
+              <span>All Work</span>
+              <span class="filter-count">11</span>
+            </button>
+            <button class="filter-btn" data-filter="graphic-design" role="tab" aria-selected="false">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path></svg>
+              <span>Graphic Design</span>
+            </button>
+            <button class="filter-btn" data-filter="video-editing" role="tab" aria-selected="false">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <span>Video Editing</span>
+            </button>
+            <button class="filter-btn" data-filter="digital-marketing" role="tab" aria-selected="false">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline></svg>
+              <span>Digital Marketing</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Dynamic Filterable Portfolio Grid -->
+        <div class="portfolio-grid" id="portfolioGrid">
+          <!-- Dynamically populated by js/portfolio.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TESTIMONIALS & REVIEWS SECTION
+         ========================================================================== -->
+    <section class="section testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag emerald">Social Proof</span>
+          <h2 class="section-title">Client Words &amp; <span class="text-gradient">Endorsements</span></h2>
+          <p class="section-subtitle">Real feedback from founders, agency directors, and marketing leads who achieved breakthrough results.</p>
+        </div>
+
+        <div class="testimonials-slider-wrapper">
+          <div class="testimonials-viewport">
+            <div class="testimonials-track" id="testimonialsTrack">
+              <!-- Dynamically populated by js/testimonials.js -->
+            </div>
+          </div>
+
+          <!-- Slider Controls -->
+          <div class="slider-nav-controls">
+            <button class="slider-arrow-btn" id="sliderPrevBtn" aria-label="Previous review">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <div class="slider-dots-container" id="sliderDots"></div>
+            <button class="slider-arrow-btn" id="sliderNextBtn" aria-label="Next review">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION & DIRECT INQUIRY
+         ========================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag cyan">Get In Touch</span>
+          <h2 class="section-title">Ready to Elevate Your <span class="text-gradient-cyan">Brand &amp; Growth</span>?</h2>
+          <p class="section-subtitle">Have an upcoming campaign, video project, or branding requirement? Let's discuss scope, timelines, and deliverables.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Direct Channels & Social Links -->
+          <div class="contact-info-card">
+            <div>
+              <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Direct Reach Out</h3>
+              <p style="color: var(--text-muted); font-size: 0.95rem;">Prefer instant messaging or email? Connect with me directly for rapid consultation.</p>
+            </div>
+
+            <div class="contact-direct-channels">
+              <!-- WhatsApp Quick Action -->
+              <a href="https://wa.me/15552345678" class="contact-channel-item" id="whatsappCtaBtn">
+                <div class="channel-icon whatsapp">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Instant Chat (WhatsApp)</span>
+                  <p class="channel-value">+1 (555) 234-5678</p>
+                </div>
+                <span class="btn btn-sm btn-outline" style="pointer-events: none;">Chat Now →</span>
+              </a>
+
+              <!-- Direct Email -->
+              <div class="contact-channel-item">
+                <div class="channel-icon email">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Official Work Email</span>
+                  <p class="channel-value">alex.rivera.creative@example.com</p>
+                </div>
+                <button class="copy-btn" id="copyEmailBtn" title="Copy email address" aria-label="Copy Email">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </div>
+
+              <!-- Location & Remote Work -->
+              <div class="contact-channel-item">
+                <div class="channel-icon location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Availability &amp; Location</span>
+                  <p class="channel-value">San Francisco, CA • Remote Worldwide</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Channels Bar -->
+            <div class="social-links-wrap">
+              <span class="social-links-title">Connect On Social Media</span>
+              <div class="social-icons-row">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile" aria-label="LinkedIn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Behance Portfolio" aria-label="Behance">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8h4"></path><path d="M2 5h7a4 4 0 0 1 0 8H2z"></path><path d="M2 13h8a4 4 0 0 1 0 8H2z"></path><circle cx="18" cy="15" r="3"></circle></svg>
+                </a>
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="YouTube Channel" aria-label="YouTube">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram Creatives" aria-label="Instagram">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Facebook Page" aria-label="Facebook">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Working Contact Form -->
+          <div class="contact-form-card">
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactName" class="form-label">Your Name *</label>
+                  <input type="text" id="contactName" class="form-control" placeholder="e.g. Jordan Hayes" required />
+                </div>
+                <div class="form-group">
+                  <label for="contactEmail" class="form-label">Email Address *</label>
+                  <input type="email" id="contactEmail" class="form-control" placeholder="jordan@company.com" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="serviceSelect" class="form-label">Service Needed *</label>
+                  <select id="serviceSelect" class="form-control" required>
+                    <option value="graphic-design">Graphic Design &amp; Branding</option>
+                    <option value="video-editing">Video Editing &amp; Motion Graphics</option>
+                    <option value="digital-marketing">Digital Marketing &amp; Paid Social</option>
+                    <option value="full-stack">Full-Stack Creative Package (All-in-One)</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="budgetSelect" class="form-label">Project Budget Range</label>
+                  <select id="budgetSelect" class="form-control">
+                    <option value="1k-3k">$1,000 – $3,000</option>
+                    <option value="3k-6k" selected>$3,000 – $6,000</option>
+                    <option value="6k-15k">$6,000 – $15,000</option>
+                    <option value="enterprise">$15,000+ / Retainer</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Project Details &amp; Objectives *</label>
+                <textarea id="contactMessage" class="form-control" placeholder="Tell me about your goals, brand timeline, and desired deliverables..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg btn-full">
+                Send Project Inquiry
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#home" class="brand-logo" aria-label="Alex Rivera Portfolio Home">
+          <span class="brand-mark">AR</span>
+          <span class="brand-text">ALEX<span>.</span>RIVERA</span>
+        </a>
+
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to Top" title="Back to top">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+        </button>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Alex Rivera. All Rights Reserved. Graphic Design • Motion Graphics • Digital Marketing.</p>
+        <p>Built with clean responsive HTML5, CSS3 &amp; Modern JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODALS: LIGHTBOX & VIDEO PLAYER & FAST INQUIRY
+       ========================================================================== -->
+  <!-- Image Lightbox Modal -->
+  <div class="modal-overlay" id="imageModal" role="dialog" aria-modal="true" aria-label="Portfolio Item Lightbox">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div id="imageModalContent"></div>
+    </div>
+  </div>
+
+  <!-- Video Player Modal -->
+  <div class="modal-overlay" id="videoModal" role="dialog" aria-modal="true" aria-label="Video Reel Showcase">
+    <div class="modal-dialog video-modal-dialog">
+      <button class="modal-close-btn" aria-label="Close video player">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="video-player-container" id="videoPlayerContainer"></div>
+      <div class="video-details-bar">
+        <div>
+          <h3 id="videoModalTitle" style="font-size: 1.25rem; color: #FFFFFF;"></h3>
+          <p id="videoModalSubtitle" style="font-size: 0.85rem; color: #94A3B8; margin-top: 0.25rem;"></p>
+        </div>
+        <a href="#contact" class="btn btn-primary btn-sm hire-me-trigger">
+          Request Video Production →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quick "Hire Me" Modal -->
+  <div class="modal-overlay" id="hireModal" role="dialog" aria-modal="true" aria-label="Fast Consultation Request">
+    <div class="modal-dialog hire-modal-dialog">
+      <button class="modal-close-btn" aria-label="Close dialog">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="hire-modal-header">
+        <span class="section-tag">Fast Track Consultation</span>
+        <h3 class="hire-modal-title">Let's Partner Up</h3>
+        <p class="hire-modal-subtitle">Share your key contact info and I'll get back to you with availability and a proposal outline.</p>
+      </div>
+
+      <form id="hireModalForm">
+        <div class="form-group">
+          <label for="hireName" class="form-label">Full Name</label>
+          <input type="text" id="hireName" class="form-control" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <label for="hireEmail" class="form-label">Business Email</label>
+          <input type="email" id="hireEmail" class="form-control" placeholder="name@company.com" required />
+        </div>
+        <div class="form-group">
+          <label for="hireService" class="form-label">Primary Interest</label>
+          <select id="hireService" class="form-control">
+            <option value="Graphic Design">Graphic Design &amp; Brand Identity</option>
+            <option value="Video Editing">Viral Video Editing &amp; Motion</option>
+            <option value="Digital Marketing">Paid Ads &amp; Digital Growth</option>
+            <option value="All-in-one">Complete Full-Stack Creative Suite</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">
+          Confirm Fast-Track Request →
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/data.js"></script>
+  <script src="js/portfolio.js"></script>
+  <script src="js/testimonials.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

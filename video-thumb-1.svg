@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vt1-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="vt1-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="vt1-glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#vt1-bg)"/>
+
+  <!-- Audio Waveform Visualization in background -->
+  <g fill="rgba(139, 92, 246, 0.3)" transform="translate(0, 200)">
+    <rect x="20" y="-15" width="4" height="30" rx="2"/>
+    <rect x="30" y="-35" width="4" height="70" rx="2"/>
+    <rect x="40" y="-55" width="4" height="110" rx="2"/>
+    <rect x="50" y="-25" width="4" height="50" rx="2"/>
+    <rect x="60" y="-80" width="4" height="160" rx="2"/>
+    <rect x="70" y="-45" width="4" height="90" rx="2"/>
+    <rect x="80" y="-95" width="4" height="190" rx="2"/>
+    <rect x="90" y="-60" width="4" height="120" rx="2"/>
+    <rect x="100" y="-110" width="4" height="220" rx="2"/>
+    <rect x="110" y="-40" width="4" height="80" rx="2"/>
+    <rect x="120" y="-70" width="4" height="140" rx="2"/>
+    <rect x="130" y="-30" width="4" height="60" rx="2"/>
+    <!-- Right side waveforms -->
+    <rect x="470" y="-40" width="4" height="80" rx="2"/>
+    <rect x="480" y="-70" width="4" height="140" rx="2"/>
+    <rect x="490" y="-105" width="4" height="210" rx="2"/>
+    <rect x="500" y="-50" width="4" height="100" rx="2"/>
+    <rect x="510" y="-85" width="4" height="170" rx="2"/>
+    <rect x="520" y="-30" width="4" height="60" rx="2"/>
+    <rect x="530" y="-65" width="4" height="130" rx="2"/>
+    <rect x="540" y="-45" width="4" height="90" rx="2"/>
+    <rect x="550" y="-80" width="4" height="160" rx="2"/>
+    <rect x="560" y="-25" width="4" height="50" rx="2"/>
+    <rect x="570" y="-50" width="4" height="100" rx="2"/>
+  </g>
+
+  <!-- Big Kinetic Typography in Center -->
+  <text x="300" y="145" fill="#FFFFFF" font-family="'Syne', 'Impact', sans-serif" font-weight="900" font-size="44" text-anchor="middle" letter-spacing="4">MOTION</text>
+  <text x="300" y="195" fill="url(#vt1-accent)" font-family="'Syne', 'Impact', sans-serif" font-weight="900" font-size="52" text-anchor="middle" letter-spacing="6">SHOWREEL</text>
+
+  <!-- Central Interactive Play Button Ring -->
+  <g transform="translate(300, 260)" filter="url(#vt1-glow)">
+    <circle cx="0" cy="0" r="36" fill="rgba(15, 23, 42, 0.85)" stroke="url(#vt1-accent)" stroke-width="3"/>
+    <polygon points="-8,-14 16,0 -8,14" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Video Meta Overlays -->
+  <!-- Top Left: 4K UHD & Duration -->
+  <rect x="25" y="25" width="65" height="24" rx="4" fill="rgba(236, 72, 153, 0.25)" stroke="#EC4899" stroke-width="1"/>
+  <text x="57" y="41" fill="#F472B6" font-family="sans-serif" font-weight="800" font-size="10" text-anchor="middle">4K UHD</text>
+
+  <rect x="100" y="25" width="70" height="24" rx="4" fill="rgba(0, 0, 0, 0.6)"/>
+  <text x="135" y="41" fill="#E2E8F0" font-family="sans-serif" font-weight="700" font-size="10" text-anchor="middle">01:45 MIN</text>
+
+  <!-- Top Right: Software Tags -->
+  <rect x="420" y="25" width="155" height="24" rx="4" fill="rgba(0,0,0,0.6)"/>
+  <text x="497" y="41" fill="#38BDF8" font-family="sans-serif" font-weight="700" font-size="10" text-anchor="middle">AFTER EFFECTS &amp; C4D</text>
+
+  <!-- Bottom Scrubber Bar -->
+  <rect x="25" y="360" width="550" height="6" rx="3" fill="rgba(255, 255, 255, 0.2)"/>
+  <rect x="25" y="360" width="220" height="6" rx="3" fill="url(#vt1-accent)"/>
+  <circle cx="245" cy="363" r="6" fill="#FFFFFF"/>
+  
+  <text x="25" y="350" fill="#94A3B8" font-family="sans-serif" font-weight="600" font-size="11">00:42 / 01:45</text>
+  <text x="575" y="350" fill="#38BDF8" font-family="sans-serif" font-weight="700" font-size="11" text-anchor="end">CLICK TO WATCH SHOWCASE</text>
+</svg>

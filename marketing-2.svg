@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="m2-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="m2-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="url(#m2-bg)"/>
+
+  <!-- Funnel Visualization Diagram -->
+  <g transform="translate(40, 40)">
+    <text x="0" y="20" fill="#FFFFFF" font-family="'Syne', sans-serif" font-weight="800" font-size="20">B2B OMNICHANNEL LEAD FUNNEL</text>
+    <text x="0" y="42" fill="#94A3B8" font-family="sans-serif" font-size="12">Conversion Rate Optimization &amp; LinkedIn/Search Ads</text>
+
+    <!-- Funnel Stage 1: Cold Traffic -->
+    <g transform="translate(0, 70)">
+      <polygon points="0,0 260,0 230,55 30,55" fill="rgba(139, 92, 246, 0.25)" stroke="#8B5CF6" stroke-width="1.5"/>
+      <text x="130" y="26" fill="#EDE9FE" font-family="sans-serif" font-weight="700" font-size="12" text-anchor="middle">TOP: TARGETED PROSPECTS</text>
+      <text x="130" y="44" fill="#A78BFA" font-family="sans-serif" font-weight="600" font-size="11" text-anchor="middle">142,000 Impressions</text>
+    </g>
+
+    <!-- Funnel Stage 2: High Intent Clicks -->
+    <g transform="translate(0, 130)">
+      <polygon points="30,0 230,0 205,55 55,55" fill="rgba(99, 102, 241, 0.35)" stroke="#6366F1" stroke-width="1.5"/>
+      <text x="130" y="26" fill="#EEF2FF" font-family="sans-serif" font-weight="700" font-size="12" text-anchor="middle">MID: LP VISITS (NEW CRO)</text>
+      <text x="130" y="44" fill="#818CF8" font-family="sans-serif" font-weight="600" font-size="11" text-anchor="middle">8,640 Visitors (6.1% CTR)</text>
+    </g>
+
+    <!-- Funnel Stage 3: Demo Bookings -->
+    <g transform="translate(0, 190)">
+      <polygon points="55,0 205,0 180,55 80,55" fill="rgba(16, 185, 129, 0.4)" stroke="#10B981" stroke-width="1.5"/>
+      <text x="130" y="26" fill="#ECFDF5" font-family="sans-serif" font-weight="700" font-size="12" text-anchor="middle">BOTTOM: DEMO CALLS</text>
+      <text x="130" y="44" fill="#34D399" font-family="sans-serif" font-weight="600" font-size="11" text-anchor="middle">620 Qualified Leads (7.2%)</text>
+    </g>
+
+    <!-- Funnel Stage 4: Signed Enterprise Deals -->
+    <g transform="translate(0, 250)">
+      <polygon points="80,0 180,0 160,50 100,50" fill="#10B981"/>
+      <text x="130" y="24" fill="#064E3B" font-family="sans-serif" font-weight="900" font-size="11" text-anchor="middle">DEALS WON</text>
+      <text x="130" y="40" fill="#042F1E" font-family="sans-serif" font-weight="800" font-size="11" text-anchor="middle">48 Enterprise</text>
+    </g>
+  </g>
+
+  <!-- Right Side Stat Cards -->
+  <g transform="translate(330, 95)">
+    <!-- Card 1 -->
+    <rect width="230" height="75" rx="10" fill="#1E293B" stroke="rgba(255,255,255,0.08)"/>
+    <text x="20" y="30" fill="#94A3B8" font-family="sans-serif" font-weight="600" font-size="11">CUSTOMER ACQ. COST</text>
+    <text x="20" y="60" fill="#34D399" font-family="'Syne', sans-serif" font-weight="800" font-size="24">-42.5% CAC</text>
+
+    <!-- Card 2 -->
+    <rect y="90" width="230" height="75" rx="10" fill="#1E293B" stroke="rgba(255,255,255,0.08)"/>
+    <text x="20" y="120" fill="#94A3B8" font-family="sans-serif" font-weight="600" font-size="11">LANDING PAGE CONV.</text>
+    <text x="20" y="150" fill="#A78BFA" font-family="'Syne', sans-serif" font-weight="800" font-size="24">2.1% → 7.2%</text>
+
+    <!-- Card 3 -->
+    <rect y="180" width="230" height="75" rx="10" fill="#1E293B" stroke="rgba(255,255,255,0.08)"/>
+    <text x="20" y="210" fill="#94A3B8" font-family="sans-serif" font-weight="600" font-size="11">PIPELINE VALUE</text>
+    <text x="20" y="240" fill="#FBBF24" font-family="'Syne', sans-serif" font-weight="800" font-size="24">$460,000 ARR</text>
+  </g>
+</svg>

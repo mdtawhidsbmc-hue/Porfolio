@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="g1-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090514"/>
+      <stop offset="50%" stop-color="#180B2B"/>
+      <stop offset="100%" stop-color="#0A1128"/>
+    </linearGradient>
+    <linearGradient id="g1-cyber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="g1-sphere" x1="20%" y1="20%" x2="90%" y2="90%">
+      <stop offset="0%" stop-color="#FF2E93"/>
+      <stop offset="40%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#080E24"/>
+    </linearGradient>
+    <filter id="g1-glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="600" height="750" fill="url(#g1-bg)"/>
+
+  <!-- Cyber Grid Lines -->
+  <g stroke="rgba(139, 92, 246, 0.15)" stroke-width="1">
+    <line x1="50" y1="0" x2="50" y2="750"/>
+    <line x1="150" y1="0" x2="150" y2="750"/>
+    <line x1="300" y1="0" x2="300" y2="750"/>
+    <line x1="450" y1="0" x2="450" y2="750"/>
+    <line x1="550" y1="0" x2="550" y2="750"/>
+    <line x1="0" y1="100" x2="600" y2="100"/>
+    <line x1="0" y1="250" x2="600" y2="250"/>
+    <line x1="0" y1="450" x2="600" y2="450"/>
+    <line x1="0" y1="620" x2="600" y2="620"/>
+  </g>
+
+  <!-- Top Badges & Meta -->
+  <text x="60" y="55" fill="#06B6D4" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="12" letter-spacing="4">PROJECT: EVENT POSTER // TOKYO 2099</text>
+  <text x="540" y="55" fill="#EC4899" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" text-anchor="end" letter-spacing="2">LIMITED EDITION</text>
+  <line x1="60" y1="70" x2="540" y2="70" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+  <!-- Central Visual: Floating Holographic Orb & Wireframe Rings -->
+  <circle cx="300" cy="310" r="130" fill="url(#g1-sphere)" filter="url(#g1-glow)"/>
+  
+  <!-- Perspective Wireframe Rings -->
+  <ellipse cx="300" cy="310" rx="160" ry="45" fill="none" stroke="#06B6D4" stroke-width="2" stroke-dasharray="12 6" transform="rotate(-25 300 310)"/>
+  <ellipse cx="300" cy="310" rx="175" ry="55" fill="none" stroke="#EC4899" stroke-width="2" transform="rotate(35 300 310)"/>
+
+  <!-- Geometric Accents -->
+  <rect x="280" y="290" width="40" height="40" fill="none" stroke="#FFFFFF" stroke-width="2" transform="rotate(45 300 310)"/>
+  <circle cx="300" cy="310" r="4" fill="#FFFFFF"/>
+
+  <!-- Main Headline Typography -->
+  <text x="300" y="490" fill="#FFFFFF" font-family="'Syne', 'Arial Black', sans-serif" font-weight="900" font-size="52" text-anchor="middle" letter-spacing="6">SYNTHESIS</text>
+  <text x="300" y="525" fill="url(#g1-cyber)" font-family="'Syne', 'Arial Black', sans-serif" font-weight="800" font-size="28" text-anchor="middle" letter-spacing="8">FUTURE SOUNDS 2099</text>
+
+  <!-- Sub details and line-up -->
+  <text x="300" y="575" fill="#94A3B8" font-family="sans-serif" font-weight="600" font-size="13" text-anchor="middle" letter-spacing="3">FEATURING ARTISTS</text>
+  <text x="300" y="602" fill="#E2E8F0" font-family="sans-serif" font-weight="700" font-size="15" text-anchor="middle" letter-spacing="2">KAIRO // CYBERPUNK SYNDICATE // NEON DREAM // OMEGA 9</text>
+  
+  <!-- Barcode & Ticket Footer -->
+  <line x1="60" y1="650" x2="540" y2="650" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  
+  <!-- Stylized Barcode -->
+  <g fill="#A855F7" transform="translate(60, 670)">
+    <rect x="0" y="0" width="3" height="40"/>
+    <rect x="6" y="0" width="2" height="40"/>
+    <rect x="12" y="0" width="6" height="40"/>
+    <rect x="22" y="0" width="2" height="40"/>
+    <rect x="28" y="0" width="4" height="40"/>
+    <rect x="36" y="0" width="2" height="40"/>
+    <rect x="42" y="0" width="5" height="40"/>
+    <rect x="52" y="0" width="2" height="40"/>
+    <rect x="58" y="0" width="4" height="40"/>
+    <rect x="66" y="0" width="8" height="40"/>
+    <rect x="78" y="0" width="3" height="40"/>
+    <rect x="85" y="0" width="5" height="40"/>
+    <rect x="94" y="0" width="2" height="40"/>
+    <rect x="100" y="0" width="6" height="40"/>
+  </g>
+
+  <text x="180" y="688" fill="#F8FAFC" font-family="sans-serif" font-weight="700" font-size="12">DATE: 11.28 // SHIBUYA DOME</text>
+  <text x="180" y="704" fill="#64748B" font-family="sans-serif" font-weight="500" font-size="10">PRINT RESOLUTION: 300 DPI CMYK READY</text>
+  
+  <rect x="430" y="668" width="110" height="34" rx="6" fill="rgba(6,182,212,0.1)" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="485" y="689" fill="#38BDF8" font-family="sans-serif" font-weight="800" font-size="11" text-anchor="middle" letter-spacing="1">GRAPHIC SUITE</text>
+</svg>

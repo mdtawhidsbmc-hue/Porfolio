@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vt3-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="50%" stop-color="#1F2937"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="vt3-phone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#374151"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="vt3-tiktok" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#FE0979"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#vt3-bg)"/>
+
+  <!-- Left Stats & Viral Badge -->
+  <g transform="translate(40, 80)">
+    <rect width="160" height="80" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="20" y="32" fill="#94A3B8" font-family="sans-serif" font-weight="600" font-size="11">TOTAL VIEWS</text>
+    <text x="20" y="62" fill="#38BDF8" font-family="'Syne', sans-serif" font-weight="800" font-size="24">3.8M+</text>
+  </g>
+
+  <g transform="translate(40, 180)">
+    <rect width="160" height="80" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="20" y="32" fill="#94A3B8" font-family="sans-serif" font-weight="600" font-size="11">AVG WATCH TIME</text>
+    <text x="20" y="62" fill="#4ADE80" font-family="'Syne', sans-serif" font-weight="800" font-size="24">112%</text>
+  </g>
+
+  <g transform="translate(40, 280)">
+    <rect width="160" height="80" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="20" y="32" fill="#94A3B8" font-family="sans-serif" font-weight="600" font-size="11">ENGAGEMENT</text>
+    <text x="20" y="62" fill="#F472B6" font-family="'Syne', sans-serif" font-weight="800" font-size="24">240K Likes</text>
+  </g>
+
+  <!-- Vertical Smartphone Mockup in Center -->
+  <g transform="translate(240, 20)">
+    <!-- Phone Body -->
+    <rect x="0" y="0" width="180" height="360" rx="28" fill="url(#vt3-phone)" stroke="#4B5563" stroke-width="3"/>
+    <!-- Screen -->
+    <rect x="8" y="10" width="164" height="340" rx="20" fill="#030712"/>
+    
+    <!-- Video Visual Content inside screen -->
+    <circle cx="90" cy="140" r="45" fill="#3B82F6" opacity="0.4"/>
+    <polygon points="75,120 115,140 75,160" fill="#FFFFFF"/>
+
+    <!-- Dynamic Hormozi-style Captions -->
+    <rect x="20" y="210" width="124" height="28" rx="6" fill="#FACC15"/>
+    <text x="82" y="230" fill="#000000" font-family="'Arial Black', sans-serif" font-weight="900" font-size="12" text-anchor="middle">"STOP SCROLLING!"</text>
+    
+    <rect x="25" y="244" width="114" height="24" rx="4" fill="#000000" opacity="0.8"/>
+    <text x="82" y="261" fill="#FFFFFF" font-family="sans-serif" font-weight="800" font-size="11" text-anchor="middle">HERE IS THE SECRET</text>
+
+    <!-- Side Action Buttons (Heart, Comment, Share) -->
+    <g transform="translate(145, 170)">
+      <circle cx="10" cy="15" r="10" fill="rgba(255,255,255,0.2)"/>
+      <path d="M 6 14 Q 10 10 14 14 Q 10 20 6 14" fill="#EF4444"/>
+      
+      <circle cx="10" cy="45" r="10" fill="rgba(255,255,255,0.2)"/>
+      <rect x="6" y="41" width="8" height="6" rx="2" fill="#FFFFFF"/>
+
+      <circle cx="10" cy="75" r="10" fill="rgba(255,255,255,0.2)"/>
+      <polygon points="6,71 14,75 6,79" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Audio disc spinning -->
+    <circle cx="155" cy="315" r="10" fill="#1F2937" stroke="#9CA3AF" stroke-width="1.5"/>
+  </g>
+
+  <!-- Right Features Column -->
+  <g transform="translate(440, 90)">
+    <text x="0" y="20" fill="#FFFFFF" font-family="'Syne', sans-serif" font-weight="800" font-size="16">VIRAL REELS &amp; SHORTS</text>
+    <text x="0" y="45" fill="#94A3B8" font-family="sans-serif" font-size="11">Optimized for algorithms:</text>
+    
+    <text x="0" y="80" fill="#38BDF8" font-family="sans-serif" font-weight="700" font-size="11">✓ 3-Second Visual Hook</text>
+    <text x="0" y="110" fill="#38BDF8" font-family="sans-serif" font-weight="700" font-size="11">✓ Dynamic Kinetic Captions</text>
+    <text x="0" y="140" fill="#38BDF8" font-family="sans-serif" font-weight="700" font-size="11">✓ Sound FX &amp; Beat Matching</text>
+    <text x="0" y="170" fill="#38BDF8" font-family="sans-serif" font-weight="700" font-size="11">✓ 9:16 Vertical Export</text>
+
+    <rect x="0" y="200" width="130" height="34" rx="8" fill="url(#vt3-tiktok)"/>
+    <text x="65" y="222" fill="#FFFFFF" font-family="sans-serif" font-weight="800" font-size="11" text-anchor="middle">PREVIEW REEL</text>
+  </g>
+</svg>

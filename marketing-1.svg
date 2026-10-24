@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="m1-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06121E"/>
+      <stop offset="50%" stop-color="#0B1E2E"/>
+      <stop offset="100%" stop-color="#040C14"/>
+    </linearGradient>
+    <linearGradient id="m1-green" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="m1-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="url(#m1-bg)"/>
+
+  <!-- Top Metrics Bar -->
+  <g transform="translate(30, 25)">
+    <!-- Metric 1: ROAS -->
+    <rect width="165" height="75" rx="10" fill="#0E2436" stroke="#10B981" stroke-width="1.5"/>
+    <text x="18" y="26" fill="#94A3B8" font-family="sans-serif" font-weight="600" font-size="10">BLENDED ROAS</text>
+    <text x="18" y="58" fill="#34D399" font-family="'Syne', sans-serif" font-weight="900" font-size="28">4.82x</text>
+    <text x="100" y="56" fill="#10B981" font-family="sans-serif" font-weight="700" font-size="11">▲ +210%</text>
+
+    <!-- Metric 2: Revenue -->
+    <rect x="185" width="165" height="75" rx="10" fill="#0E2436" stroke="rgba(255,255,255,0.08)"/>
+    <text x="203" y="26" fill="#94A3B8" font-family="sans-serif" font-weight="600" font-size="10">GENERATED REVENUE</text>
+    <text x="203" y="58" fill="#FFFFFF" font-family="'Syne', sans-serif" font-weight="900" font-size="26">$124.8K</text>
+    <text x="300" y="56" fill="#10B981" font-family="sans-serif" font-weight="700" font-size="11">▲ 90 Days</text>
+
+    <!-- Metric 3: CPA -->
+    <rect x="370" width="170" height="75" rx="10" fill="#0E2436" stroke="rgba(255,255,255,0.08)"/>
+    <text x="388" y="26" fill="#94A3B8" font-family="sans-serif" font-weight="600" font-size="10">COST PER ACQUISITION</text>
+    <text x="388" y="58" fill="#38BDF8" font-family="'Syne', sans-serif" font-weight="900" font-size="26">$18.40</text>
+    <text x="495" y="56" fill="#38BDF8" font-family="sans-serif" font-weight="700" font-size="11">▼ -38%</text>
+  </g>
+
+  <!-- Main Chart Canvas Area -->
+  <rect x="30" y="120" width="540" height="230" rx="12" fill="#091A28" stroke="rgba(255,255,255,0.08)"/>
+  
+  <text x="50" y="148" fill="#FFFFFF" font-family="'Syne', sans-serif" font-weight="800" font-size="14">CAMPAIGN SCALE TRAJECTORY (META &amp; GOOGLE ADS)</text>
+  <text x="550" y="148" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="end">Daily Spend vs Conversion Value</text>
+
+  <!-- Grid lines -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="50" y1="180" x2="550" y2="180"/>
+    <line x1="50" y1="225" x2="550" y2="225"/>
+    <line x1="50" y1="270" x2="550" y2="270"/>
+    <line x1="50" y1="315" x2="550" y2="315"/>
+  </g>
+
+  <!-- Area Fill underneath line -->
+  <polygon points="50,315 50,300 110,290 180,265 250,250 320,210 400,185 470,165 540,150 540,315" fill="url(#m1-green)"/>
+
+  <!-- Growth Line -->
+  <polyline points="50,300 110,290 180,265 250,250 320,210 400,185 470,165 540,150" fill="none" stroke="url(#m1-line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Milestone Dots -->
+  <circle cx="180" cy="265" r="5" fill="#06B6D4"/>
+  <circle cx="320" cy="210" r="5" fill="#10B981"/>
+  <circle cx="470" cy="165" r="5" fill="#34D399"/>
+  <circle cx="540" cy="150" r="7" fill="#FFFFFF" stroke="#10B981" stroke-width="3"/>
+
+  <!-- Floating Callout on Peak -->
+  <rect x="420" y="105" width="135" height="30" rx="6" fill="#10B981"/>
+  <text x="487" y="125" fill="#042F1E" font-family="sans-serif" font-weight="900" font-size="11" text-anchor="middle">PEAK: 5.4X ROAS</text>
+
+  <!-- Bottom Strategy Breakdown Bar -->
+  <g transform="translate(30, 368)">
+    <rect width="540" height="60" rx="8" fill="#0E2436" stroke="rgba(255,255,255,0.06)"/>
+    <text x="20" y="25" fill="#38BDF8" font-family="sans-serif" font-weight="700" font-size="11">STRATEGY EXECUTED:</text>
+    <text x="20" y="45" fill="#CBD5E1" font-family="sans-serif" font-size="11">UGC Video Hook Iteration • Lookalike 1-3% Stacks • Dynamic Retargeting Funnel</text>
+    
+    <rect x="440" y="16" width="85" height="28" rx="6" fill="#10B981"/>
+    <text x="482" y="34" fill="#064E3B" font-family="sans-serif" font-weight="800" font-size="10" text-anchor="middle">FULL CASE</text>
+  </g>
+</svg>

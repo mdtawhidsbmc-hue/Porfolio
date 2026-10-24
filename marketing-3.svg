@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="m3-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180A22"/>
+      <stop offset="50%" stop-color="#2D1145"/>
+      <stop offset="100%" stop-color="#0E0516"/>
+    </linearGradient>
+    <linearGradient id="m3-pink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#BE123C"/>
+    </linearGradient>
+    <linearGradient id="m3-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="url(#m3-bg)"/>
+
+  <!-- Title & Tagline -->
+  <text x="40" y="50" fill="#FFFFFF" font-family="'Syne', sans-serif" font-weight="900" font-size="22">VIRAL CONTENT ENGINE // CASE STUDY</text>
+  <text x="40" y="74" fill="#F472B6" font-family="sans-serif" font-weight="600" font-size="12">0 to 85,000 Targeted Followers in 120 Days with $0 Ad Spend</text>
+
+  <!-- Metric Badges Row -->
+  <g transform="translate(40, 95)">
+    <!-- Metric 1 -->
+    <rect width="160" height="80" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(244,63,94,0.3)"/>
+    <text x="20" y="30" fill="#FDA4AF" font-family="sans-serif" font-weight="700" font-size="10">ORGANIC VIEWS</text>
+    <text x="20" y="60" fill="#FFFFFF" font-family="'Syne', sans-serif" font-weight="900" font-size="28">2.45M</text>
+
+    <!-- Metric 2 -->
+    <rect x="180" width="160" height="80" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(139,92,246,0.3)"/>
+    <text x="200" y="30" fill="#D8B4FE" font-family="sans-serif" font-weight="700" font-size="10">COMMUNITY SIZE</text>
+    <text x="200" y="60" fill="#FFFFFF" font-family="'Syne', sans-serif" font-weight="900" font-size="28">85.2K</text>
+
+    <!-- Metric 3 -->
+    <rect x="360" width="160" height="80" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(6,182,212,0.3)"/>
+    <text x="380" y="30" fill="#67E8F9" font-family="sans-serif" font-weight="700" font-size="10">EMAIL LIST CONV.</text>
+    <text x="380" y="60" fill="#FFFFFF" font-family="'Syne', sans-serif" font-weight="900" font-size="28">14,200</text>
+  </g>
+
+  <!-- Visual Histogram & Pillars -->
+  <g transform="translate(40, 205)">
+    <rect width="520" height="215" rx="12" fill="rgba(0,0,0,0.3)" stroke="rgba(255,255,255,0.06)"/>
+    <text x="25" y="32" fill="#E2E8F0" font-family="'Syne', sans-serif" font-weight="700" font-size="13">WEEKLY ENGAGEMENT SPIKES &amp; CONTENT HOOKS</text>
+    
+    <!-- Bar chart -->
+    <g transform="translate(30, 160)">
+      <!-- Week 1 -->
+      <rect x="10" y="-35" width="30" height="35" rx="4" fill="#6B21A8"/>
+      <text x="25" y="16" fill="#94A3B8" font-family="sans-serif" font-size="9" text-anchor="middle">W1</text>
+      <!-- Week 2 -->
+      <rect x="55" y="-50" width="30" height="50" rx="4" fill="#7E22CE"/>
+      <text x="70" y="16" fill="#94A3B8" font-family="sans-serif" font-size="9" text-anchor="middle">W2</text>
+      <!-- Week 3 -->
+      <rect x="100" y="-80" width="30" height="80" rx="4" fill="#9333EA"/>
+      <text x="115" y="16" fill="#94A3B8" font-family="sans-serif" font-size="9" text-anchor="middle">W3</text>
+      <!-- Week 4: First Viral Hit -->
+      <rect x="145" y="-120" width="30" height="120" rx="4" fill="url(#m3-neon)"/>
+      <text x="160" y="16" fill="#F472B6" font-family="sans-serif" font-weight="700" font-size="9" text-anchor="middle">W4*</text>
+      <!-- Week 5 -->
+      <rect x="190" y="-95" width="30" height="95" rx="4" fill="#9333EA"/>
+      <text x="205" y="16" fill="#94A3B8" font-family="sans-serif" font-size="9" text-anchor="middle">W5</text>
+      <!-- Week 6 -->
+      <rect x="235" y="-110" width="30" height="110" rx="4" fill="#A855F7"/>
+      <text x="250" y="16" fill="#94A3B8" font-family="sans-serif" font-size="9" text-anchor="middle">W6</text>
+      <!-- Week 7 -->
+      <rect x="280" y="-135" width="30" height="135" rx="4" fill="url(#m3-neon)"/>
+      <text x="295" y="16" fill="#F472B6" font-family="sans-serif" font-weight="700" font-size="9" text-anchor="middle">W7*</text>
+      <!-- Week 8 -->
+      <rect x="325" y="-145" width="30" height="145" rx="4" fill="url(#m3-neon)"/>
+      <text x="340" y="16" fill="#F472B6" font-family="sans-serif" font-weight="700" font-size="9" text-anchor="middle">W8*</text>
+    </g>
+
+    <!-- Key Insights Box on the right -->
+    <g transform="translate(410, 45)">
+      <rect width="90" height="135" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(244,63,94,0.2)"/>
+      <text x="45" y="24" fill="#F472B6" font-family="sans-serif" font-weight="800" font-size="9" text-anchor="middle">STRATEGY</text>
+      <text x="10" y="45" fill="#E2E8F0" font-family="sans-serif" font-size="8">• 3-second hook</text>
+      <text x="10" y="65" fill="#E2E8F0" font-family="sans-serif" font-size="8">• B-roll pacing</text>
+      <text x="10" y="85" fill="#E2E8F0" font-family="sans-serif" font-size="8">• Save-to-watch</text>
+      <text x="10" y="105" fill="#E2E8F0" font-family="sans-serif" font-size="8">• Bio link funnel</text>
+    </g>
+  </g>
+</svg>
